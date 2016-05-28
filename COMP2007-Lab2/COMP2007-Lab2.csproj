@@ -70,8 +70,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Jumbotron.ascx" />
-    <Content Include="Navbar.ascx" />
+    <Content Include="User_Controls\Jumbotron.ascx" />
+    <Content Include="User_Controls\Navbar.ascx" />
     <Content Include="packages.config" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
@@ -128,18 +128,18 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Jumbotron.ascx.cs">
+    <Compile Include="User_Controls\Jumbotron.ascx.cs">
       <DependentUpon>Jumbotron.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Jumbotron.ascx.designer.cs">
+    <Compile Include="User_Controls\Jumbotron.ascx.designer.cs">
       <DependentUpon>Jumbotron.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Navbar.ascx.cs">
+    <Compile Include="User_Controls\Navbar.ascx.cs">
       <DependentUpon>Navbar.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Navbar.ascx.designer.cs">
+    <Compile Include="User_Controls\Navbar.ascx.designer.cs">
       <DependentUpon>Navbar.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

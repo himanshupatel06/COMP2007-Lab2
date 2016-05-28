@@ -9,12 +9,14 @@ namespace COMP2007_Lab2
 {
     public partial class Jumbotron : System.Web.UI.UserControl
     {
-        [PersistenceMode(PersistenceMode.InnerProperty)]
+
+       // [PersistenceMode(PersistenceMode.InnerProperty)]
         public PlaceHolder BodyContent { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            content.Controls.Add(BodyContent);
+            jH1.InnerText = "Welcome";
+           // content.Controls.Add(BodyContent);
         }
     }
 }

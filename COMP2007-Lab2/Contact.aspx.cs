@@ -11,7 +11,12 @@ namespace COMP2007_Lab2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
         }
     }
 }
